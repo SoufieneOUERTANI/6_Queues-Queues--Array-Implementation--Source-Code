@@ -36,6 +36,48 @@ public class Main {
         System.out.println("3>>>>>>");
         queue.print();
 
+        queue.remove();
+        // Si on démarre avec un seul élément 
+        // Si on fait un remove/add => Le compteur reste à zéro
+        queue.add(billEnd);
+        queue.remove();
+        queue.add(billEnd);
+        queue.remove();
+        queue.add(billEnd);
+        queue.remove();
+        queue.add(billEnd);
+        queue.remove();
+        queue.add(billEnd);
+        queue.remove();
+        queue.add(billEnd);
+        queue.remove();
+        queue.add(billEnd);
+        queue.remove();
+        queue.add(billEnd);
+
+        System.out.println("4>>>>>>");
+        queue.print();
+
+        queue.remove();
+        // Si on démarre av ec deux éléments 
+        // Si on fait un remove/add => Le compteur gripme indéfinément
+        queue.add(billEnd);
+        queue.add(marySmith);
+        queue.remove();
+        queue.add(billEnd);
+        queue.remove();
+        queue.add(billEnd);
+        queue.remove();
+        queue.add(billEnd);
+        queue.remove();
+        queue.add(billEnd);
+        queue.remove();
+        queue.add(billEnd);
+        queue.remove();
+        queue.add(billEnd);
+        System.out.println("5>>>>>>");
+        queue.print();
+
     // 1>>>>>>
     // Employee{firstName='Jane', lastName='Jones', id=123}
     // Employee{firstName='John', lastName='Doe', id=4567}
